@@ -1,0 +1,24 @@
+pkgbase = wmal-git
+	pkgdesc = A lightweight and simple updater for MyAnimeList, Melative or VNDB.
+	pkgver = 0.2.r377.g004925d
+	pkgrel = 2
+	url = http://z411.github.io/wmal-python/
+	install = wmal-git.install
+	arch = any
+	license = GPL3
+	makedepends = python2
+	makedepends = desktop-file-utils
+	makedepends = git
+	depends = python2
+	depends = lsof
+	optdepends = pygtk: gtk frontend
+	optdepends = python2-pillow: thumbnail images for GUI frontends
+	optdepends = python2-pyqt4: Qt frontend
+	optdepends = python2-urwid: ncurses frontend
+	source = wmal-git::git+https://github.com/z411/wmal-python.git
+	source = wmal-curses.desktop
+	source = wmal-gtk.desktop
+	source = wmal-qt.desktop
+
+pkgname = wmal-git
+

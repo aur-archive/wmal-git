@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=wMAL
+Exec=trackma-gtk
+OnlyShowIn=GNOME;
+Type=Application
+Categories=Network;
+Icon=wmal
+Comment=wMAL Updater (Gtk-frontend)
+StartupWMClass=trackma-gtk
